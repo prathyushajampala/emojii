@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Recommendation</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-image: url('background-image.jpg'); /* Add your background image */
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            padding: 50px;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .video {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio for responsive video */
+            height: 0;
+        }
+
+        .video iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .emoji-section {
+            margin-top: 20px;
+        }
+
+        .expression-section {
+            margin-top: 20px;
+        }
+
+        form {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Emoji Recommendation Page</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Categories</a>
+        <a href="#">Popular Emojis</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="video">
+        <!-- Replace the video URL with your emoji recommendation video -->
+        <iframe src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section class="emoji-section">
+        <h2>Discover New Emojis!</h2>
+        <p>Explore our collection of emojis and find the perfect ones for your messages.</p>
+        <button>View Emojis</button>
+    </section>
+
+    <section class="expression-section">
+        <h2>Express Yourself</h2>
+        <p>Tell us how you feel, and we'll recommend the perfect emoji for you!</p>
+        <form>
+            <label for="expression">Enter your expression:</label>
+            <input type="text" id="expression" name="expression" placeholder="E.g., Happy, Excited">
+            <button type="submit">Get Emoji</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Emoji Recommendation. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
